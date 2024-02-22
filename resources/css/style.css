@@ -219,17 +219,24 @@ content{
     align-items: flex-start;
     justify-content: center;
     text-decoration: none;
+    font-size: 15px;
 }
 
 .contact-point p{
     margin-left: 20px;
     margin-left: 20px;
+    font-size: 25px;
     
+}
+
+.contact-point i{
+    font-size: 25px;
 }
 
 .contact-point a{
     text-decoration: none;
     color: black;
+    font-size: 15px;
 }
 
 .italic-word{
@@ -241,7 +248,7 @@ content{
 
 
 
-@media only screen and (max-width: 1130px) {
+@media only screen and (max-width: 768px) {
     main{
         flex-direction: column;
     }
